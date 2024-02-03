@@ -1,3 +1,13 @@
+document.addEventListener("DOMContentLoaded", function() {
+  var spinner = document.getElementById("spinner");
+  spinner.style.display = "block";
+
+  setTimeout(function() {
+    spinner.style.display = "none";
+  }, 4000); 
+});
+
+
 function startNumberChange(currentNumber, maxNumber, elementId) {
     let intervalId;
 
