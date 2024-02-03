@@ -1,11 +1,14 @@
 document.addEventListener("DOMContentLoaded", function() {
+  // Show the spinner
   var spinner = document.getElementById("spinner");
   spinner.style.display = "block";
 
+  // Hide the spinner after 4 seconds
   setTimeout(function() {
     spinner.style.display = "none";
-  }, 4000); 
+  }, 4000); // 4 seconds
 });
+
 
 
 function startNumberChange(currentNumber, maxNumber, elementId) {
