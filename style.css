@@ -4,7 +4,6 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
-
 .spinner {
     position: fixed;
     top: 50%;
@@ -84,6 +83,7 @@
       opacity: 1;
     }
   }
+  
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -225,12 +225,18 @@ header .icon-svg {
     margin-left: 1.9vw;
 }
 
+.social-media a{
+    text-decoration: none;
+    color: #fff;
+}
+
 .social-media {
+    color: #fff;
     margin: 3vh 0vh;
     margin-left: 1.5vw;
     font-size: 3vh;
     font-weight: 600;
-    color: #fff;
+    text-decoration: none;
 }
 
 .btn {
@@ -249,7 +255,7 @@ header .icon-svg {
     color: #222224;
 }
 
-.social-media span:hover {
+.social-media span a:hover {
     color: #DF9F3B;
 }
 
@@ -1028,7 +1034,3 @@ footer .fbox i {
         font-size: 3vw;
     }
 }
-
-/* ... */
-
-
